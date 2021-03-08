@@ -1,6 +1,6 @@
 {
   "name": "@robinblomberg/eslint-config-prettier",
-  "version": "0..0",
+  "version": "0.1.0",
   "author": "Robin Blomberg",
   "main": "index.js",
   "repository": {
