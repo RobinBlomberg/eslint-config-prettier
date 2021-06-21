@@ -84,6 +84,7 @@ module.exports = {
     'switch-colon-spacing': 'off',
     'template-curly-spacing': 'off',
     'template-tag-spacing': 'off',
+    'wrap-regex': 'off',
     'yield-star-spacing': 'off'
   }
 };
