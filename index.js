@@ -1,6 +1,7 @@
 // eslint-disable-next-line import/no-commonjs
 module.exports = {
   rules: {
+    '@typescript-eslint/brace-style': 'off',
     '@typescript-eslint/comma-dangle': 'off',
     '@typescript-eslint/comma-spacing': 'off',
     '@typescript-eslint/func-call-spacing': 'off',
