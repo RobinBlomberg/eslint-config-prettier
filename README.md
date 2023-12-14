@@ -1,16 +1,16 @@
-# ESLint Config for Prettier
+# ESLint config for Prettier
 
 ## Installation
 
-```
-npm install --save-dev @robinblomberg/eslint-config-prettier
+```sh
+npm install -D @robinblomberg/eslint-config-prettier
 ```
 
 ## Configuration
 
 In your **.eslintrc.json**:
 
-```javascript
+```js
 {
   "extends": [
     "@robinblomberg/robinblomberg",
