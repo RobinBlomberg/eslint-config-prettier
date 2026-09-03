@@ -1,0 +1,3 @@
+minimumReleaseAgeExclude:
+  - '@robinblomberg/eslint-config-robinblomberg@0.34.0'
+  - eslint-plugin-storybook@10.6.0

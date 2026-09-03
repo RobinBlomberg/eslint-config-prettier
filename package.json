@@ -1,8 +1,15 @@
 {
   "name": "@robinblomberg/eslint-config-prettier",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "author": "Robin Blomberg",
   "main": "index.js",
+  "types": "index.d.ts",
+  "type": "module",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "index.d.ts.map"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RobinBlomberg/eslint-config-prettier.git"
@@ -12,13 +19,19 @@
   },
   "homepage": "https://github.com/RobinBlomberg/eslint-config-prettier#readme",
   "scripts": {
-    "lint": "eslint **/*.{js,ts}",
-    "lint:fix": "eslint **/*.{js,ts} --fix"
+    "build": "tsc -p tsconfig.build.json",
+    "prepack": "npm run build",
+    "typecheck": "tsc"
   },
   "devDependencies": {
-    "@robinblomberg/eslint-config-robinblomberg": "^0.4.13",
-    "cross-env": "^7.0.3",
-    "husky": "^4.3.8",
-    "lint-staged": "^10.5.3"
+    "@robinblomberg/eslint-config-robinblomberg": "^0.34.0",
+    "@types/node": "^26.4.1",
+    "cross-env": "^10.1.0",
+    "npm-check-updates": "^23.1.0",
+    "typescript": "^6.0.3"
+  },
+  "peerDependencies": {
+    "eslint": "^9.0.0",
+    "typescript": "^6.0.3"
   }
 }
