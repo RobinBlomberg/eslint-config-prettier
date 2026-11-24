@@ -27,7 +27,6 @@ const config = [
       'comma-spacing': 'off',
       'comma-style': 'off',
       'computed-property-spacing': 'off',
-      curly: 'off',
       'dot-location': 'off',
       'eol-last': 'off',
       'func-call-spacing': 'off',
